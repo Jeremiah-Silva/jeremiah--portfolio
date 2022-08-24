@@ -3,8 +3,8 @@ import './about.css';
 
 const about = () => {
   return (
-    <div>about</div>
+    <div>About</div>
   )
 }
 
-export default about
+export default about;
