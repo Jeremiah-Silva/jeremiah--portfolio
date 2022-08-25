@@ -27,6 +27,8 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
+    font-size:1.5rem;
+
 }
 
 .header__socials::after {
@@ -56,7 +58,7 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
