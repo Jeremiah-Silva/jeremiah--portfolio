@@ -40,9 +40,12 @@ const About = () => {
           </div>
 
         <p>
-          Describe about myself.... ksjfkdsjfksjfksldjfdslkjfs lksdfksdfj siodfksldfjsdklf lskdfjs
-          sldksdklfj slkdflsdkjf dsl;kdklfjgs 390456349085 sdkofdsfj zx.,cmnvxz,.mpows.skskslsksks
-          ,dmdfmgdflkgld94xmn.
+        I am a full-stack developer with a passion for coding and learning about the latest 
+        technologies and for helping develop a wide variety of features including both frontend 
+        and backend components. Over one year of hands-on experience including Python, SQL, 
+        MySQL, JavaScript, Vue.js, and React.js. 
+        Eager to develop skills in a fast-paced environment and contribute to the success 
+        of a company.
         </p>
 
 
