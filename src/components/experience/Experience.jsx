@@ -13,13 +13,17 @@ const Experience = () => {
           <div className="experience__content">
             <article className='experience__details'>
             <BsCheckCircleFill />
+            <div>
             <h2>HTML</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill />
+            <div>
             <h2>CSS</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill />
