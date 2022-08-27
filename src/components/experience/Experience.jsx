@@ -1,5 +1,6 @@
 import React from 'react';
 import './experience.css';
+import {BsCheckCircleFill} from 'react-icons/bs'
 
 const Experience = () => {
   return (
@@ -10,7 +11,31 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
-            <article className='experience__details'></article>
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>HTML</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>CSS</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>JavaScript</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>ReactJS</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>VueJS</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
           </div>
 
 
