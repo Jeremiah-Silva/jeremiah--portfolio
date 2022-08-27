@@ -37,15 +37,35 @@ const Experience = () => {
             <medium className='text-light'>Experienced</medium>
             </article>
           </div>
-
-
         </div>
+        {/* END OF FRONTEND*/}
+
         <div className="experience__backend">
-
+        <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>NodeJs</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>MongoDB</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>SQL</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
+            <article className='experience__details'>
+            <BsCheckCircleFill />
+            <h2>Phyton</h2>
+            <medium className='text-light'>Experienced</medium>
+            </article>
+          </div>
         </div>
-
       </div>
-
       </section>
   )
 }
