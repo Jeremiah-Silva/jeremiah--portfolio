@@ -11,34 +11,40 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
-            <article className='experience__details'>
-            <BsCheckCircleFill />
+              <article className='experience__details'>
+              <BsCheckCircleFill />
             <div>
-            <h2>HTML</h2>
-            <medium className='text-light'>Experienced</medium>
+              <h2>HTML</h2>
+              <medium className='text-light'>Experienced</medium>
             </div>
+            </article>
+            <article className='experience__details'>
+             <BsCheckCircleFill />
+             <div>
+             <h2>CSS</h2>
+             <medium className='text-light'>Experienced</medium>
+             </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill />
             <div>
-            <h2>CSS</h2>
-            <medium className='text-light'>Experienced</medium>
-            </div>
-            </article>
-            <article className='experience__details'>
-            <BsCheckCircleFill />
             <h2>JavaScript</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill />
+            <div>
             <h2>ReactJS</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill />
+            <div>
             <h2>VueJS</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
           </div>
         </div>
@@ -49,23 +55,31 @@ const Experience = () => {
           <div className="experience__content">
             <article className='experience__details'>
             <BsCheckCircleFill />
+            <div>
             <h2>NodeJs</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill />
+            <div>
             <h2>MongoDB</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill />
+            <div>
             <h2>SQL</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill />
+            <div>
             <h2>Phyton</h2>
             <medium className='text-light'>Experienced</medium>
+            </div>
             </article>
           </div>
         </div>
