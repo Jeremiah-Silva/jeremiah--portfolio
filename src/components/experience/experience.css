@@ -44,25 +44,29 @@
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
+        gap: 0.9rem;
+        height: 50%;
     }
     .experience__container > div {
         width: 80%;
-        padding: 2rem;
+        padding: 1rem;
         margin: 0 auto;
     }
     .experience__content {
-        padding: 1rem;
+        padding: 0;
     }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
     .experience__container {
-        gap: 1rem;
+        grid-template-columns: 1fr;
+        gap: 1.7rem;
+        height: 50%;
     }
-
     .experience__container > div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 1rem 0.5rem;
+        
     }
 }
