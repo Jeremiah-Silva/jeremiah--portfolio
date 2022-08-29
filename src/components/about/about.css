@@ -12,7 +12,7 @@
 }
 
 .about__me {
-    width: 120%;
+    width: 100%;
     aspect-ratio: 1.35;
     border-radius:2rem;
     background: linear-gradient(
@@ -68,6 +68,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
@@ -78,25 +79,26 @@
     }
     
     .about__me{
-        width: 50%;
-        margin: 2rem auto 4rem;
+        width: 45%;
+        margin: 1rem auto 3rem;
     }
 
     .about__content p {
-        margin: 1rem 0 1.5rem;
+        margin: 0.4rem 0 1.5rem;
+        text-align: justify;
     }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
     .about__me{
-        width: 80%;
-        margin: 0 auto 3rem;
+        width: 43%;
+        margin: 0 auto 1.3rem;
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: 0.1fr 0.1fr 0.1fr;
+        gap: 20px;
     }
 
     .about__content {
@@ -104,6 +106,6 @@
     }
 
     .about__content p {
-        margin: 1.5rem 0;
+        margin: 1rem 1rem;
     }
 }
