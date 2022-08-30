@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     overflow: hidden;
 }
 
@@ -12,9 +12,9 @@ header {
 
 /* ================ CTA ================ */
 .cta {
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 1.5rem;
     justify-content: center;
 }
 
@@ -23,7 +23,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 1rem;
     position: absolute;
     left: 0;
     bottom: 3rem;
@@ -45,10 +45,10 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: -0.05rem;
     border-radius: 5rem 5rem 0 0;
     overflow: hidden;
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ================ MYSELF ================ */
