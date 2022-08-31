@@ -8,7 +8,7 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
-    transition: var(--transition);
+    transition: 0.5s;
 }
 
 .about__me {
@@ -27,6 +27,7 @@
  
 .about__me-image:hover {
     transform: rotate(0);
+    transition: 0.5s;
 }
 
 .about__cards {
