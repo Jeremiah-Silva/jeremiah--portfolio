@@ -10,7 +10,7 @@ const data = [
 {
   avatar:AVTR1,
   name: "image1",
-  review: 'TExt ASDJFJNV and bla blab bla PERSON 1 dsf dsffdlffghfgy5675675676575676575676575676556 75 67 56 756 756 7 56 56756756765765756fgjghfjhg fgfghjg nf  ouo iuou oiuoiuo iuoiu oiugkdfgl dflkgdlkfg'
+  review: 'TExt ASDJFJNV and bla blab bla PERSON 1 dsf dsffdlffghfgy5675675676575676575676575676556 75 67 56 756 756gkdfgl dflkgdlkfg'
 },
 {
   avatar:AVTR2,
