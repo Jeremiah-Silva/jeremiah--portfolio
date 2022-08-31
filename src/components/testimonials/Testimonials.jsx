@@ -45,7 +45,7 @@ const Testimonials = () => {
 
       <Swiper className="container testimonials__container"
        // install Swiper modules
-       modules={[Pagination8]}
+       modules={[Pagination]}
        spaceBetween={40} //pixels
        slidesPerView={1} // pixels
        pagination={{ clickable: true }}>
