@@ -31,8 +31,8 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
-
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
+/*
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ 
 @media screen and (max-width: 1024px) {
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
@@ -43,6 +43,7 @@
 @media screen and (max-width: 600px) {
     .portfolio__container {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 3.5rem;
+        zoom: 50%
     }
 }
