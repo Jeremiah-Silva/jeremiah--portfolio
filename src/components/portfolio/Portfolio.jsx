@@ -1,11 +1,11 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
+import IMG1 from '../../assets/portfolio1.png';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+//import IMG4 from '../../assets/portfolio4.jpg';
+//import IMG5 from '../../assets/portfolio5.png';
+//import IMG6 from '../../assets/portfolio6.jpg';
 
 
 
@@ -14,24 +14,24 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Pacman',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715'
+    github: 'https://github.com/Jeremiah-Silva/Pacman',
+    demo: 'https://pacman-tau.vercel.app/Index.html'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Pacman',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715'
+    title: 'List-To-Do',
+    github: 'https://github.com/Jeremiah-Silva/ListToDo',
+    demo: 'https://list-to-do-seven.vercel.app/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Pacman',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715'
+    title: 'Test Page',
+    github: 'https://github.com/Jeremiah-Silva/WebPage',
+    demo: 'https://web-page-pi.vercel.app/'
   },
-  {
+  /*{
     id: 4,
     image: IMG4,
     title: 'Pacman',
@@ -51,7 +51,7 @@ const data = [
     title: 'Pacman',
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/16673715'
-  },
+  },*/
 ]
 
 const Portfolio = () => {
