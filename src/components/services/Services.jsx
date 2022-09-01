@@ -18,22 +18,28 @@ const Services = () => {
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Research and evaluate a variety of interactive media software products.</p> 
+            <br></br> 
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Prepare mock-ups and storyboards.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Lead and co-ordinate multidisciplinary teams to develop Website graphics, content, 
+                capacity and interactivity.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Source, select and organize information for inclusion and design the appearance, layout and flow of the Website.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Create and optimize content for Website using a variety of graphics, database, animation and other software.</p> 
+            <br></br>
             </li>
           </ul>
       </article>  
@@ -45,56 +51,67 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Develop Website architeture and determine hardware and software requirements.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Research and evaluate a variety of interactive media software products.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Source, select and organize information for inclusion and design the appearance, layout and flow of the Website.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Lead and co-ordinate multidisciplinary teams to develop Website graphics, content, capacity and interactivity.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Conduct tests and perform security and quality controls.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Plan, design, write, modify, integrate and test Web-site related code.</p> 
+              <br></br>
             </li>
           </ul>
       </article>  
       {/* WEB DEVELOPMENT*/}
       <article className="service">
           <div className="service__head">
-          <h3>Define the matter</h3>
+          <h3>e-Commerce</h3>
           </div> 
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Develop eCommerce platforms to analyze and process data for different clients. </p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Create a new payment processing method for merchants.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Implement navigation features in Website and app.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Build integrations for next generation of card readers.</p> 
+            <br></br>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>bla bla bla bla abncjfjr 91923ksk skjds</p> 
+              <p>Develop and support an image recognition service.</p> 
+            <br></br>
             </li>
           </ul>
       </article>  
