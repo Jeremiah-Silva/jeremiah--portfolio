@@ -44,7 +44,7 @@ const Experience = () => {
             <BsCheckCircleFill className='experience__details-icon'/>
             <div>
             <h2>VueJS</h2>
-            <medium className='text-light'>Experienced</medium>
+            <medium className='text-light'>Studying</medium>
             </div>
             </article>
           </div>
@@ -72,14 +72,14 @@ const Experience = () => {
             <BsCheckCircleFill className='experience__details-icon'/>
             <div>
             <h2>SQL</h2>
-            <medium className='text-light'>Experienced</medium>
+            <medium className='text-light'>Studying </medium>
             </div>
             </article>
             <article className='experience__details'>
             <BsCheckCircleFill className='experience__details-icon'/>
             <div>
             <h2>Phyton</h2>
-            <medium className='text-light'>Experienced</medium>
+            <medium className='text-light'>Studying</medium>
             </div>
             </article>
           </div>
