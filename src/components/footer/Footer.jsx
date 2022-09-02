@@ -14,7 +14,7 @@ const Footer = () => {
           <li><a href="#experience">Experience</a></li>
           <li><a href="#services">Sercives</a></li>
           <li><a href="#portfolio">PortFolio</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#knowledge1">Knowledge</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 
