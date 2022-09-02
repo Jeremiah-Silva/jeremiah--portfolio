@@ -27,7 +27,7 @@
 
 .service__head h3 {
     color: var(--color-bg);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -48,10 +48,9 @@
 
 .service__list p {
     font-size: 0.9rem;
-    text-align: justify
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
     .services__container {
         grid-template-columns: 1fr 1fr;
@@ -66,8 +65,8 @@
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
     .services__container {
-        display:table-header-group;
-        gap: 9rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
     .swiper-pagination-clickable .swiper-pagination-bullet {
