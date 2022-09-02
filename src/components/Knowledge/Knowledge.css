@@ -15,7 +15,7 @@
 .knowledge {
     background: var(--color-bg-variant);
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 2rem;
     user-select: none;
 }
@@ -32,7 +32,7 @@
     background: var(--color-primary);
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ 
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
     .container.container.knowledge__container {
         width: 60%;
