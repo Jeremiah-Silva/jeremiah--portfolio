@@ -56,7 +56,7 @@ const knowledge1 = () => {
                 <div className='knowledge__avatar'>
                 <img src={avatar} />
                 </div>
-                <h1 className='knowledge__name'>{name}</h1>
+                <h2 className='knowledge__name'>{name}</h2>
                 <h3 className='knowledge__review'>{review}</h3>
                 </SwiperSlide>
             )
