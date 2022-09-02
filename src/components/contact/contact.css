@@ -55,8 +55,8 @@ input, textarea {
     resize: none;
     color: var(--color-white);
 }
-/*
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
     .container.contact__container {
         grid-template-columns: 1fr;
@@ -69,7 +69,5 @@ input, textarea {
     .container.contact__container {
         width: var(--container-width-sm);
         grid-template-columns: 1fr;
-        zoom: 60%;
-
     }
 }
