@@ -4,16 +4,9 @@
     gap: 15%;
 }
 
-.about__me-image {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: 0.5s;
-}
-
 .about__me {
     width: 100%;
-    aspect-ratio: 1.35;
+    aspect-ratio: 1/1; /* 1.35 */
     border-radius:2rem;
     background: linear-gradient(
         45deg, 
@@ -25,6 +18,15 @@
     place-items: center;
 }
  
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: 0.5s;
+}
+
+
+
 .about__me-image:hover {
     transform: rotate(0);
     transition: 0.5s;
@@ -41,7 +43,7 @@
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
-    text-align:center;
+    text-align: center;
     transition: 0.45s;
 }
 
@@ -54,15 +56,15 @@
 .about__icon {
     color: var(gold);
     font-size: 1.4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .about__card h5 {
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
 
 .about__card small {
-    font-size: 0.80rem;
+    font-size: 0.7rem;
     color:var(--color-light);
 }
 
@@ -72,7 +74,7 @@
     text-align: justify;
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ 
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
@@ -80,26 +82,26 @@
     }
     
     .about__me{
-        width: 45%;
-        margin: 1rem auto 3rem;
+        width: 50%;
+        margin: 2rem auto 4rem;
     }
 
     .about__content p {
-        margin: 0.4rem 0 1.5rem;
+        margin: 1rem 0 1.5rem;
         text-align: justify;
     }
 }
 
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
     .about__me{
         width: 43%;
-        margin: 0 auto 1.3rem;
+        margin: 0 auto 3rem;
     }
 
     .about__cards {
-        grid-template-columns: 0.1fr 0.1fr 0.1fr;
-        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
     }
 
     .about__content {
@@ -107,7 +109,6 @@
     }
 
     .about__content p {
-        margin: 1rem 1rem;
+        margin: 1.5rem 0;
     }
 }
-*/
