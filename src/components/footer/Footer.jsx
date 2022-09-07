@@ -1,8 +1,8 @@
 import React from 'react';
 import './footer.css';
 import { FaFacebookF } from 'react-icons/fa';
-import { FiInstagram } from 'react-icons/fi'
-import { IoLogoTwitter } from 'react-icons/io'
+import { FiInstagram } from 'react-icons/fi';
+import { IoLogoTwitter } from 'react-icons/io';
 
 const Footer = () => {
   return (
@@ -17,13 +17,11 @@ const Footer = () => {
           <li><a href="#knowledge1">Knowledge</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-
         <div className="footer__socials">
           <a href='https://www.facebook.com/profile.php?id=100012588603955' target="_blank"><FaFacebookF/></a>
           <a href='https://www.instagram.com/jeremiah_i19/' target="_blank"><FiInstagram/></a>
           <a href='https://twitter.com/Jeremiah_ca9' target="_blank"><IoLogoTwitter/></a>
         </div>
-
         <div className="footer__copyright">
           <small>&copy; Jeremiah Silva. All rights reserved.</small>
         </div>
@@ -31,4 +29,4 @@ const Footer = () => {
   )
 }
 
-export default Footer 
+export default Footer;
