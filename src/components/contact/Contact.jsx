@@ -1,10 +1,10 @@
 import React from 'react';
 import './contact.css';
-import { MdOutlineMail } from 'react-icons/md'
-import { RiMessengerLine } from 'react-icons/ri'
-import { BsWhatsapp } from 'react-icons/bs'
-import { useRef } from 'react'
-import emailjs from 'emailjs-com'
+import { MdOutlineMail } from 'react-icons/md';
+import { RiMessengerLine } from 'react-icons/ri';
+import { BsWhatsapp } from 'react-icons/bs';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const form = useRef();
@@ -21,7 +21,6 @@ const Contact = () => {
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-
       <div className="container contact__container">
       <div className="contact__options">
         <article className="contact__option">
@@ -55,4 +54,4 @@ const Contact = () => {
   )
 }
 
-export default Contact 
+export default Contact;
