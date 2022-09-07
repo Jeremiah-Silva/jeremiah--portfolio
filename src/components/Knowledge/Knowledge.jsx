@@ -16,7 +16,7 @@ import 'swiper/css/pagination';
 
 const data = [
 {
-  avatar:JS,
+  avatar: JS,
   name: "JavaScript",
   review: 'JavaScript is the programming language of the Web.'
 },
@@ -58,7 +58,7 @@ const knowledge1 = () => {
                 </div>
                 <h2 className='knowledge__name'>{name}</h2>
                 <h3 className='knowledge__review'>{review}</h3>
-                </SwiperSlide>
+              </SwiperSlide>
             )
           })
         }
@@ -67,4 +67,4 @@ const knowledge1 = () => {
   )
 }
 
-export default knowledge1
+export default knowledge1;
