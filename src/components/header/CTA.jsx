@@ -1,5 +1,5 @@
-import React from 'react'
-import Resume from '../../assets/Jeremiah Resume.pdf'
+import React from 'react';
+import Resume from '../../assets/Jeremiah Resume.pdf';
 
 
 const CTA = () => {
@@ -11,4 +11,4 @@ const CTA = () => {
   )
 }
 
-export default CTA
+export default CTA;
