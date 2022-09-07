@@ -117,9 +117,8 @@ const Services = () => {
       </article>  
       {/* END OF DEFINE THE MATTER*/}
       </div>
-      
       </section>
   )
 }
 
-export default Services 
+export default Services;
